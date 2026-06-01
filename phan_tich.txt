@@ -1,0 +1,3 @@
+CSRF trong ứng dụng web truyền thống hoạt động dựa trên session và cookie nên dễ bị gửi request giả mạo nếu không có CSRF token bảo vệ
+Đối với REST API stateless, hệ thống thường dùng JWT hoặc token trong header Authorization thay vì cookie nên nguy cơ CSRF thấp hơn
+Nếu tắt CSRF cho ứng dụng web dùng session-based authentication, hacker có thể lợi dụng cookie đăng nhập để thực hiện các hành động trái phép thay người dùng.
